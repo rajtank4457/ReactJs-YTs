@@ -1,0 +1,70 @@
+.bodys {
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .containers {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+  }
+  
+  .h1s {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff0000;
+    animation: blink 1s infinite alternate;
+  }
+  
+  .ps {
+    font-size: 1.5em;
+  }
+  
+  /* @keyframes blink { */
+    /* from { */
+      /* color: #00ff11; */
+    /* } */
+    /* to { */
+      /* color: #ff0008; */
+    /* } */
+  /* } */
+  @keyframes blink {
+    0% {
+        color: #00ff11;
+      }
+      50% {
+        color: #ff0008;
+      }
+      100% {
+        color: #00ff11;
+      }
+  }
+  
+  /* styles.css */
+table-container {
+  margin: 20px;
+}
+
+table {
+  border: 1px solid #ddd;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th {
+  background: #f2f2f2;
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
